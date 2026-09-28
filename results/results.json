@@ -1,0 +1,28 @@
+{
+  "Linear (glmboost analogue)": {
+    "MSE": 90.44315668226051,
+    "R2": 0.23199621638960555,
+    "fit_time_s": 4.277715444564819,
+    "params": {}
+  },
+  "LightGBM": {
+    "MSE": 79.52855768663106,
+    "R2": 0.3246782238816964,
+    "fit_time_s": 473.267452955246,
+    "params": {
+      "num_leaves": 48,
+      "n_estimators": 3133,
+      "learning_rate": 0.05
+    }
+  },
+  "Random Forest": {
+    "MSE": 84.00906383869045,
+    "R2": 0.2866317225929351,
+    "fit_time_s": 329.42908358573914,
+    "params": {
+      "n_estimators": 200,
+      "min_samples_leaf": 5,
+      "max_features": 0.33
+    }
+  }
+}

@@ -1,0 +1,40 @@
+# --- Data (the CSV is ~450 MB; GitHub rejects files over 100 MB) ---
+YearPredictionMSD.csv
+YearPredictionMSD.txt
+*.csv
+*.txt.zip
+*.zip
+
+# --- Python environment and caches ---
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Smoke-test output (the real results/ folder is kept) ---
+results_quick/
+
+# --- Saved models and large artifacts ---
+*.gz
+*.joblib
+*.pkl
+*.model
+
+# --- R ---
+.Rhistory
+.RData
+.Rproj.user/
+.Renviron
+
+# --- Editors and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
